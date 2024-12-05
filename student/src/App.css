@@ -1,0 +1,12 @@
+.app-container {
+  display: flex;
+  flex-direction: row; /* Sidebar on the left */
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  /* Tablet View */
+  .app-container {
+    flex-direction: column; /* Stack sidebar and content */
+  }
+}
